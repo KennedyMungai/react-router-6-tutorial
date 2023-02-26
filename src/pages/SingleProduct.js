@@ -8,6 +8,9 @@ const SingleProduct = () =>
   return (
     <section className='section product'>
       <h2>{productId}</h2>
+      <Link to='/products' className="btn">
+        Back to the products
+      </Link>
     </section>
   );
 };
