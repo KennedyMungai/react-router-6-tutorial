@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom";
 
 const SingleProduct = () =>
 {
-  const params = useParams()
+  const { productId } = useParams()
 
   return (
     <section className='section product'>
-      <h2>{ }</h2>
+      <h2>{productId}</h2>
     </section>
   );
 };
