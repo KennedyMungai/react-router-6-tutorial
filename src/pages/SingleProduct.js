@@ -1,4 +1,8 @@
-const SingleProduct = () => {
+import { useParams } from "react-router-dom";
+
+
+const SingleProduct = () =>
+{
   return (
     <section className='section product'>
       <h2>single product</h2>
