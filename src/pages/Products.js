@@ -1,4 +1,8 @@
-const Products = () => {
+import products from "../data";
+
+
+const Products = () =>
+{
   return (
     <>
       <section className='section'>
