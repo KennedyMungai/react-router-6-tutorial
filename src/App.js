@@ -17,7 +17,7 @@ function App()
           <Route path="*" element={<Error />} />
         </Route>
         <Route path="dashboard" element={<Dashboard />}>
-
+          <Route path="stats" element={<div>Stats</div>} />
         </Route>
       </Routes>
       <footer>Footer</footer>
