@@ -8,6 +8,8 @@ const Home = () =>
       <Link to='/about' className="btn">
         About
       </Link>
+
+      <Outlet />
     </section>
   );
 };
