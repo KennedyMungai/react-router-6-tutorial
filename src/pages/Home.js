@@ -7,10 +7,6 @@ const Home = () =>
     <>
       <NavBar />
       <section className='section'>
-        <Link to='/about' className="btn">
-          About
-        </Link>
-
         <Outlet />
       </section>
     </>
