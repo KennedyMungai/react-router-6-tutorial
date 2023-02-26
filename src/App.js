@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import SharedLayout from "./pages/SharedLayout";
 
 function App()
 {
