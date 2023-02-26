@@ -15,6 +15,7 @@ function App()
         <Route path="/products" element={<Products />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <footer>Footer</footer>
     </Router>
   );
 }
