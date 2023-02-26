@@ -9,6 +9,8 @@ import SingleProduct from "./pages/SingleProduct";
 
 function App()
 {
+  const [user, setUser] = useState(null)
+
   return (
     <Router>
       <Routes>
